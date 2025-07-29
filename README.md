@@ -106,27 +106,27 @@ As respostas detalhadas para cada item do desafio estão organizadas em arquivos
 
   * **1.1. Descrição do Esquema JSON:** A análise detalhada da estrutura, tipos de dados e hierarquia do arquivo `ERP.json` pode ser encontrada em:
 
-      * [`src/desafio_1/1_1_descricao_esquema.md`](#src/desafio_1/1_1_descricao_esquema.md)
+      * [`src/desafio_1/1_1_descricao_esquema.md`](src/desafio_1/1_1_descricao_esquema.md)
 
   * **1.2. Transcrição para Tabelas SQL:** O script SQL completo e comentado para a criação do schema relacional está em:
 
-      * [`src/desafio_1/1_2_schema.sql`](#src/desafio_1/1_2_schema.sql)
+      * [`src/desafio_1/1_2_schema.sql`](src/desafio_1/1_2_schema.sql)
 
   * **1.3. Descrição da Abordagem:** A justificativa completa para as decisões de design, incluindo a abordagem polimórfica, tratamento de dados temporais e integridade referencial, está detalhada em:
 
-      * [`src/desafio_1/1_3_modelagem_detalhada.md`](#src/desafio_1/1_3_modelagem_detalhada.md)
+      * [`src/desafio_1/1_3_modelagem_detalhada.md`](src/desafio_1/1_3_modelagem_detalhada.md)
 
 ### Desafio 2: Arquitetura de Pipeline e Data Lake
 
   * **2.1. Por que armazenar as respostas das APIs?:** A discussão estratégica sobre a importância de criar uma camada de dados brutos (Bronze), no contexto da Arquitetura Medalhão, está em:
 
-      * [`src/desafio_2/2_1_armazenamento_api.md`](#src/desafio_2/2_1_armazenamento_api.md)
+      * [`src/desafio_2/2_1_armazenamento_api.md`](src/desafio_2/2_1_armazenamento_api.md)
 
   * **2.2. Estrutura de Armazenamento:** O design da estrutura de pastas em um Data Lake no AWS S3, com foco em particionamento estratégico para performance com AWS Athena, está detalhado para os 5 endpoints em:
 
-      * [`src/desafio_2/2_2_estrutura_data_lake.md`](#src/desafio_2/2_2_estrutura_data_lake.md)
+      * [`src/desafio_2/2_2_estrutura_data_lake.md`](src/desafio_2/2_2_estrutura_data_lake.md)
 
   * **2.3. Implicações de Mudança no Schema:** A análise do cenário de evolução de schema (`Schema Drift`) e as estratégias para construir um pipeline de dados resiliente estão em:
 
-      * [`src/desafio_2/2_3_mudanca_schema.md`](#src/desafio_2/2_3_mudanca_schema.md)
+      * [`src/desafio_2/2_3_mudanca_schema.md`](src/desafio_2/2_3_mudanca_schema.md)
 
