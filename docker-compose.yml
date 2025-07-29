@@ -1,0 +1,44 @@
+# =================================================================
+# Docker Compose para Ambiente de Desenvolvimento PostgreSQL
+# Autor: Gustavo Canedo Gusmão
+# Data: 29/07/2025
+#
+# Este arquivo sobe um contêiner PostgreSQL e executa automaticamente
+# o script de criação do schema para o Desafio 1.
+#
+# Para executar: docker-compose up -d
+# =================================================================
+
+version: '3.8'
+
+services:
+  postgres_db:
+    # Usa uma imagem oficial do PostgreSQL, leve e estável
+    image: postgres:14-alpine
+    container_name: coco-bambu-postgres-db
+    
+    restart: always
+    
+    # Configura as variáveis de ambiente para o banco de dados
+    # IMPORTANTE: Em um projeto real, sempre usar .env para armazenar senhas e outras variáveis de ambiente.
+    environment:
+      POSTGRES_USER: cblab_user
+      POSTGRES_PASSWORD: a_senha_super_segura
+      POSTGRES_DB: coco_bambu_db
+      
+    # Mapeia a porta 5432 do contêiner para a porta 5435 da sua máquina
+    # para que você possa se conectar com ferramentas de BI ou clientes SQL,
+    # sem entrar em conflito com outros bancos instalados.
+    ports:
+      - "5435:5432"
+      
+    # Define os volumes para persistência de dados e inicialização
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      
+      # O ponto-chave: Mapeia o script SQL para o diretório de inicialização do PostgreSQL.
+      # O Docker irá executar este script na primeira vez que o contêiner for criado.
+      - ./src/desafio_1/1_2_schema.sql:/docker-entrypoint-initdb.d/init_schema.sql
+
+volumes:
+  postgres_data:
