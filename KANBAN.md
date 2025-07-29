@@ -18,10 +18,10 @@ Este documento rastreia o progresso do desenvolvimento da solução para o Desaf
 * [x] **Desafio 1.3:** Escrever a justificativa detalhada para a abordagem de modelagem de dados escolhida.
 * [x] **Desafio 2.1:** Elaborar e escrever a resposta sobre a importância de armazenar as respostas brutas das APIs.
 * [x] **Desafio 2.2:** Projetar e documentar a estrutura de pastas do Data Lake (S3) com particionamento no estilo Hive.
+* [x] **Desafio 2.3:** Detalhar as implicações e a solução para a mudança de esquema (`taxes` -> `taxation`).
 
 ### ⏳ Em Andamento (In Progress)
 
-* [x] **Desafio 2.3:** Detalhar as implicações e a solução para a mudança de esquema (`taxes` -> `taxation`).
 * [x] **Documentação:** Escrever o `README.md` final, explicando o projeto, a solução e como executar o código.
 
 ### 📋 A Fazer (To Do)
