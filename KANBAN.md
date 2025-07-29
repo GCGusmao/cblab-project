@@ -13,14 +13,14 @@ Este documento rastreia o progresso do desenvolvimento da solução para o Desaf
 ### ⏳ Em Andamento (In Progress)
 
 * [ ] Avaliação de criaçao de um ambiente contenerizado para execução dos produtos criados.
-* [ ] **Desafio 1.2:** Desenhar o modelo de dados relacional (SQL) a partir do JSON.
-    * [ ] Definir a tabela `guest_checks`.
+* [x] **Desafio 1.1:** Documentar formalmente o esquema do `ERP.json`.
+* [x] **Desafio 1.2:** Desenhar o modelo de dados relacional (SQL) a partir do JSON.
+    * [x] Definir a tabela `guest_checks`.
     * [ ] Definir a tabela `check_detail_lines` com abordagem polimórfica.
     * [ ] Definir tabelas de suporte (`menu_item_details`, `check_taxes`, etc.).
 
 ### 📋 A Fazer (To Do)
 
-* [ ] **Desafio 1.1:** Documentar formalmente o esquema do `ERP.json`.
 * [ ] **Desafio 1.2:** Escrever os scripts `CREATE TABLE` em um arquivo `.sql`.
 * [ ] **Desafio 1.3:** Escrever a justificativa detalhada para a abordagem de modelagem de dados escolhida.
 * [ ] **Desafio 2.1:** Elaborar e escrever a resposta sobre a importância de armazenar as respostas brutas das APIs.
