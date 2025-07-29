@@ -43,7 +43,7 @@ O repositório está organizado da seguinte forma para garantir clareza e separa
 
 Para validar a solução do Desafio 1 na prática, o projeto inclui um ambiente Docker que provisiona um banco de dados PostgreSQL e um script Python que realiza o parsing do JSON e a inserção dos dados.
 
-**⚠️ Atenção:** a estrutura possui credenciais e variáveis de ambiente escritas diretamente no código. Essa abordagem tem como objetivo facilitar o processo de execução e testes dessas soluções, mas **nunca deve ser utilizada em produção**. Sempre armazene informações sensíveis em arquivos de variáveis de ambiente, como '.env', e nunca publique essas soluções de forma pública.
+**⚠️ Atenção:** a estrutura possui credenciais dados importantes escritos diretamente no código. Essa abordagem tem como objetivo facilitar o processo de execução e testes dessas soluções, mas **nunca deve ser utilizada em produção**. Sempre armazene informações sensíveis em arquivos de variáveis de ambiente, como '.env', e nunca publique essas soluções de forma pública.
 
 ### Pré-requisitos
 
