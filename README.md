@@ -14,6 +14,8 @@ O projeto aborda os dois principais desafios propostos:
   * [🛠️ Conectando ao Banco de Dados](#conectando-ao-banco-de-dados)
   * [📄 Solução Detalhada do Desafio](#solução-detalhada-do-desafio)
 
+  * [Solução Detalhada do Desafio](#solução-detalhada-do-desafio)
+
 ## 📁 Estrutura do Projeto
 
 O repositório está organizado da seguinte forma para garantir clareza e separação de responsabilidades:
