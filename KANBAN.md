@@ -1,6 +1,6 @@
 # Quadro Kanban - Andamento do Projeto CBLab
 
-Este documento rastreia o progresso do desenvolvimento da solução para o Desafio CBLab. As tarefas são movidas da coluna `A Fazer` para `Em Andamento` e, finalmente, para `Concluído`.
+Este documento rastreia o progresso do desenvolvimento da solução para o Desafio CBLab.
 
 ---
 
@@ -23,10 +23,10 @@ Este documento rastreia o progresso do desenvolvimento da solução para o Desaf
 ### ⏳ Em Andamento (In Progress)
 
 * [x] **Documentação:** Escrever o `README.md` final, explicando o projeto, a solução e como executar o código.
+* [x] **Implementação:** Criar um script em Python (`/src/parser.py`) para validar a modelagem, lendo o `ERP.json` e estruturando os dados.
 
 ### 📋 A Fazer (To Do)
 
-* [ ] **Implementação:** Criar um script em Python (`/src/parser.py`) para validar a modelagem, lendo o `ERP.json` e estruturando os dados.
 * [ ] **Testes:** Escrever testes unitários básicos para o script de parsing para garantir a resiliência do código.
 * [ ] **Apresentação:** Criar apresentação de slides para apoiar as decisões tomadas junto a camada de negócios.
 * [ ] **Revisão Final:** Revisar todo o código, documentos e respostas antes da entrega.
