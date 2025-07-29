@@ -10,19 +10,18 @@ Este documento rastreia o progresso do desenvolvimento da solução para o Desaf
 * [x] Fazer a análise inicial do arquivo `ERP.json` e dos requisitos do PDF.
 * [x] Criar a estrutura de pastas base do projeto (`/src`, `/data`, `/tests`).
 * [x] **Desafio 1.1:** Documentar formalmente o esquema do `ERP.json`.
+* [x] **Desafio 1.2:** Desenhar o modelo de dados relacional (SQL) a partir do JSON.
+    * [x] Definir a tabela `guest_checks`.
+    * [x] Definir a tabela `detail_lines` com abordagem polimórfica.
+    * [x] Definir tabelas de suporte (`order_item_details`, `discounts`, etc.).
 
 ### ⏳ Em Andamento (In Progress)
 
 * [ ] Avaliação de criaçao de um ambiente contenerizado para execução dos produtos criados.
-* [x] **Desafio 1.2:** Desenhar o modelo de dados relacional (SQL) a partir do JSON.
-    * [x] Definir a tabela `guest_checks`.
-    * [ ] Definir a tabela `check_detail_lines` com abordagem polimórfica.
-    * [ ] Definir tabelas de suporte (`menu_item_details`, `check_taxes`, etc.).
+* [ ] **Desafio 1.3:** Escrever a justificativa detalhada para a abordagem de modelagem de dados escolhida.
 
 ### 📋 A Fazer (To Do)
 
-* [ ] **Desafio 1.2:** Escrever os scripts `CREATE TABLE` em um arquivo `.sql`.
-* [ ] **Desafio 1.3:** Escrever a justificativa detalhada para a abordagem de modelagem de dados escolhida.
 * [ ] **Desafio 2.1:** Elaborar e escrever a resposta sobre a importância de armazenar as respostas brutas das APIs.
 * [ ] **Desafio 2.2:** Projetar e documentar a estrutura de pastas do Data Lake (S3) com particionamento no estilo Hive.
 * [ ] **Desafio 2.3:** Detalhar as implicações e a solução para a mudança de esquema (`taxes` -> `taxation`).
