@@ -9,11 +9,11 @@ Este documento rastreia o progresso do desenvolvimento da solução para o Desaf
 * [x] Configurar o repositório Git inicial no GitHub/GitLab.
 * [x] Fazer a análise inicial do arquivo `ERP.json` e dos requisitos do PDF.
 * [x] Criar a estrutura de pastas base do projeto (`/src`, `/data`, `/tests`).
+* [x] **Desafio 1.1:** Documentar formalmente o esquema do `ERP.json`.
 
 ### ⏳ Em Andamento (In Progress)
 
 * [ ] Avaliação de criaçao de um ambiente contenerizado para execução dos produtos criados.
-* [x] **Desafio 1.1:** Documentar formalmente o esquema do `ERP.json`.
 * [x] **Desafio 1.2:** Desenhar o modelo de dados relacional (SQL) a partir do JSON.
     * [x] Definir a tabela `guest_checks`.
     * [ ] Definir a tabela `check_detail_lines` com abordagem polimórfica.
