@@ -18,7 +18,7 @@ Este documento rastreia o progresso do desenvolvimento da solução para o Desaf
 ### ⏳ Em Andamento (In Progress)
 
 * [ ] Avaliação de criaçao de um ambiente contenerizado para execução dos produtos criados.
-* [ ] **Desafio 1.3:** Escrever a justificativa detalhada para a abordagem de modelagem de dados escolhida.
+* [x] **Desafio 1.3:** Escrever a justificativa detalhada para a abordagem de modelagem de dados escolhida.
 
 ### 📋 A Fazer (To Do)
 
