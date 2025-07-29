@@ -19,17 +19,15 @@ Este documento rastreia o progresso do desenvolvimento da solução para o Desaf
 * [x] **Desafio 2.1:** Elaborar e escrever a resposta sobre a importância de armazenar as respostas brutas das APIs.
 * [x] **Desafio 2.2:** Projetar e documentar a estrutura de pastas do Data Lake (S3) com particionamento no estilo Hive.
 * [x] **Desafio 2.3:** Detalhar as implicações e a solução para a mudança de esquema (`taxes` -> `taxation`).
+* [x] **Implementação:** Criar um script em Python (`/src/parser.py`) para validar a modelagem, lendo o `ERP.json` e estruturando os dados.
+* [x] **Documentação:** Escrever o `README.md` final, explicando o projeto, a solução e como executar o código.
 
 ### ⏳ Em Andamento (In Progress)
 
-* [x] **Documentação:** Escrever o `README.md` final, explicando o projeto, a solução e como executar o código.
-* [x] **Implementação:** Criar um script em Python (`/src/parser.py`) para validar a modelagem, lendo o `ERP.json` e estruturando os dados.
+* [x] **Revisão Final:** Revisar todo o código, documentos e respostas antes da entrega.
 
 ### 📋 A Fazer (To Do)
 
-* [ ] **Testes:** Escrever testes unitários básicos para o script de parsing para garantir a resiliência do código.
-* [ ] **Apresentação:** Criar apresentação de slides para apoiar as decisões tomadas junto a camada de negócios.
-* [ ] **Revisão Final:** Revisar todo o código, documentos e respostas antes da entrega.
 * [ ] **Entrega:** Enviar o e-mail com o link do repositório Git e apresentação de slides.
 
 ---
